@@ -32,7 +32,19 @@ public class HashTable
         }
         return null;
     }
-    
+    public integer get(String key)
+    {
+        HTOBJECT item = getObj(key);
+        if(item == null){
+            return null;
+        }
+        return item.value;
+    }
+    public void put(){
+    }
+    public void delete(){
+        
+    }
 
 }
 
